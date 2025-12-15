@@ -1,23 +1,4 @@
-"""
-generate data: question and docs
-data: 100 questions: 50,100,150,..1000 docs
-LLM agent: 
 
-1. function to find docs that mataches the query
-2. function to generate random vector, angle of all docs
-3. function to generate angle query and random
-4. function to generate angle doc and query
-5. 
-
-a. create random vector
-b. angle with doc and vector
-c. Mtree on commitment on doc angle
-d. receive query
-e. angle with random
-f. angle with docs
-g. 
-
-"""
 import time
 
 import random
@@ -74,7 +55,7 @@ for i in range(1):
 
 
 """
-load 
+load question 
 """
 
 rag_agent_1 = rag_agent()
